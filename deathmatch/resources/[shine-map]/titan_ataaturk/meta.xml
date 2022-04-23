@@ -1,0 +1,9 @@
+<meta>
+	<info author="Condizition" version="1.0" name="Replace Item System" type="script" />
+
+	<script src="client.lua" type="client" />    
+     <file src="mm/p.txd" />
+     <file src="mm/p.dff" />
+     <file src="mm/p.col" />
+
+</meta>

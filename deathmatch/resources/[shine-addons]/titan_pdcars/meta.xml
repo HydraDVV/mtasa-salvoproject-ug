@@ -1,0 +1,8 @@
+<meta>
+
+<script src="client.lua" type="client" cache="false" />
+<script src="server.lua" type="server" />
+
+<file src="icons/sayfa1.png" type="png" />
+<file src="icons/sayfa2.png" type="png" />
+</meta>

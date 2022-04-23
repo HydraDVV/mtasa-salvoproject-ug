@@ -1,0 +1,5 @@
+	<meta>
+	<info author="Enkanet" type="script" description="Mermi"/>
+	<script src="s_mermi_yeri.lua" type="server"/>
+	<script src="s_mermi.lua" type="server"/>
+</meta>

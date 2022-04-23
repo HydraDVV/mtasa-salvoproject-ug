@@ -1,0 +1,164 @@
+<meta>
+    <oop>true</oop>
+
+
+	<!-- HUD -->
+	
+	<!-- Radar -->
+    <script src="sourceC.lua" type="client" cache="false"></script>
+    <script src="c_blips.lua" type="client" cache="false"></script>
+    <file src="assets/images/lostConnection.png"></file>
+    <file src="assets/images/map.png"></file>
+    <file src="assets/images/player.png"></file>
+    <file src="assets/images/design/glow.png"></file>
+    <file src="assets/images/design/cross.png"></file>
+    <file src="assets/images/design/location.png"></file>
+    <file src="assets/images/design/vignetta.png"></file>
+    <file src="assets/images/design/checkbox-outline.png"></file>
+    <file src="assets/images/design/checkbox.png"></file>
+ <file src="assets/images/blips/0.png" />
+    <file src="assets/images/blips/1.png" />
+    <file src="assets/images/blips/2.png" />
+    <file src="assets/images/blips/3.png" />
+    <file src="assets/images/blips/4.png" />
+    <file src="assets/images/blips/5.png" />
+    <file src="assets/images/blips/6.png" />
+    <file src="assets/images/blips/7.png" />
+    <file src="assets/images/blips/8.png" />
+    <file src="assets/images/blips/9.png" />
+    <file src="assets/images/blips/10.png" />
+    <file src="assets/images/blips/11.png" />
+    <file src="assets/images/blips/12.png" />
+    <file src="assets/images/blips/13.png" />
+    <file src="assets/images/blips/14.png" />
+    <file src="assets/images/blips/15.png" />
+    <file src="assets/images/blips/16.png" />
+    <file src="assets/images/blips/17.png" />
+    <file src="assets/images/blips/18.png" />
+    <file src="assets/images/blips/19.png" />
+    <file src="assets/images/blips/20.png" />
+    <file src="assets/images/blips/21.png" />
+    <file src="assets/images/blips/22.png" />
+    <file src="assets/images/blips/23.png" />
+    <file src="assets/images/blips/24.png" />
+    <file src="assets/images/blips/25.png" />
+    <file src="assets/images/blips/26.png" />
+    <file src="assets/images/blips/27.png" />
+    <file src="assets/images/blips/28.png" />
+    <file src="assets/images/blips/29.png" />
+    <file src="assets/images/blips/30.png" />
+    <file src="assets/images/blips/31.png" />
+    <file src="assets/images/blips/32.png" />
+    <file src="assets/images/blips/33.png" />
+    <file src="assets/images/blips/34.png" />
+    <file src="assets/images/blips/35.png" />
+    <file src="assets/images/blips/36.png" />
+    <file src="assets/images/blips/37.png" />
+    <file src="assets/images/blips/38.png" />
+    <file src="assets/images/blips/39.png" />
+    <file src="assets/images/blips/40.png" />
+    <file src="assets/images/blips/41.png" />
+    <file src="assets/images/blips/42.png" />
+    <file src="assets/images/blips/43.png" />
+    <file src="assets/images/blips/44.png" />
+    <file src="assets/images/blips/45.png" />
+    <file src="assets/images/blips/46.png" />
+    <file src="assets/images/blips/47.png" />
+    <file src="assets/images/blips/48.png" />
+    <file src="assets/images/blips/49.png" />
+    <file src="assets/images/blips/50.png" />
+    <file src="assets/images/blips/51.png" />
+    <file src="assets/images/blips/52.png" />
+    <file src="assets/images/blips/53.png" />
+    <file src="assets/images/blips/54.png" />
+    <file src="assets/images/blips/55.png" />
+    <file src="assets/images/blips/56.png" />
+    <file src="assets/images/blips/57.png" />
+    <file src="assets/images/blips/58.png" />
+    <file src="assets/images/blips/59.png" />
+    <file src="assets/images/blips/60.png" />
+    <file src="assets/images/blips/64.png" />
+    <file src="assets/images/blips/65.png" />
+    <file src="assets/images/blips/66.png" />
+    <file src="assets/images/blips/67.png" />
+    <file src="assets/images/blips/68.png" />
+    <file src="assets/images/blips/69.png" />
+    <file src="assets/images/blips/70.png" />
+    <file src="assets/images/blips/71.png" />
+    <file src="assets/images/blips/72.png" />
+    <file src="assets/images/blips/73.png" />
+    <file src="assets/images/blips/74.png" />
+    <file src="assets/images/blips/75.png" />
+    <file src="assets/images/blips/76.png" />
+    <file src="assets/images/blips/77.png" />
+    <file src="assets/images/blips/78.png" />
+    <file src="assets/images/blips/79.png" />
+    <file src="assets/images/blips/49.png" />
+    <file src="assets/images/blips/63.png" />
+ <file src="assets/images/blips/air_repair.png"></file>
+    <file src="assets/images/blips/airport.png"></file>
+    <file src="assets/images/blips/arrow.png"></file>
+    <file src="assets/images/blips/bank.png"></file>
+    <file src="assets/images/blips/boat_repair.png"></file>
+    <file src="assets/images/blips/boat_shop.png"></file>
+    <file src="assets/images/blips/border_crossing.png"></file>
+    <file src="assets/images/blips/car_destroyer.png"></file>
+    <file src="assets/images/blips/car_repair.png"></file>
+    <file src="assets/images/blips/car_shop.png"></file>
+    <file src="assets/images/blips/car_wash.png"></file>
+    <file src="assets/images/blips/casino.png"></file>
+    <file src="assets/images/blips/cel.png"></file>
+    <file src="assets/images/blips/cinema.png"></file>
+    <file src="assets/images/blips/city_hall.png"></file>
+    <file src="assets/images/blips/close.png"></file>
+    <file src="assets/images/blips/clothes_shop.png"></file>
+    <file src="assets/images/blips/disco.png"></file>
+    <file src="assets/images/blips/driving_license.png"></file>
+    <file src="assets/images/blips/furniture_shop.png"></file>
+    <file src="assets/images/blips/gas_station.png"></file>
+    <file src="assets/images/blips/golf.png"></file>
+    <file src="assets/images/blips/gym.png"></file>
+    <file src="assets/images/blips/hospital.png"></file>
+    <file src="assets/images/blips/house.png"></file>
+    <file src="assets/images/blips/hunting_down.png"></file>
+    <file src="assets/images/blips/hunting_ground.png"></file>
+    <file src="assets/images/blips/job.png"></file>
+    <file src="assets/images/blips/job_vehicle.png"></file>
+    <file src="assets/images/blips/kek.png"></file>
+    <file src="assets/images/blips/mark.png"></file>
+    <file src="assets/images/blips/mark_1.png"></file>
+    <file src="assets/images/blips/mark_2.png"></file>
+    <file src="assets/images/blips/mark_3.png"></file>
+    <file src="assets/images/blips/mark_4.png"></file>
+    <file src="assets/images/blips/north.png"></file>
+    <file src="assets/images/blips/pet_shop.png"></file>
+    <file src="assets/images/blips/piros.png"></file>
+    <file src="assets/images/blips/player.png"></file>
+    <file src="assets/images/blips/police_hq.png"></file>
+    <file src="assets/images/blips/port.png"></file>
+    <file src="assets/images/blips/racingtrack.png"></file>
+    <file src="assets/images/blips/sarga.png"></file>
+    <file src="assets/images/blips/shop.png"></file>
+    <file src="assets/images/blips/shopping_mall.png"></file>
+    <file src="assets/images/blips/target.png"></file>
+    <file src="assets/images/blips/taxi.png"></file>
+    <file src="assets/images/blips/tuning_workshop.png"></file>
+    <file src="assets/images/blips/vehicle.png"></file>
+    <file src="assets/images/blips/weapon_shop.png"></file>
+    <file src="assets/images/blips/zold.png"></file>
+   <file src="assets/images/blips/sm.png"></file>
+   <file src="assets/images/blips/gift.png"></file>
+    <file src="assets/images/gps/right.png"></file>
+    <file src="assets/images/gps/refresh.png"></file>
+    <file src="assets/images/gps/left.png"></file>
+    <file src="assets/images/gps/forward.png"></file>
+    <file src="assets/images/gps/finish.png"></file>
+    <file src="assets/images/gps/circleout.png"></file>
+    <file src="assets/images/gps/circlein.png"></file>
+    <file src="assets/images/gps/around.png"></file>
+    <export function="setGPSDestination" type="client"></export>
+    <export function="createStayBlip" type="client"></export>
+    <export function="destroyStayBlip" type="client"></export>
+    <export function="toggle3DBlip" type="client"></export>
+	 <min_mta_version server="1.5.2-9.07903" client="1.3.0-9.04431" />
+</meta>

@@ -1,0 +1,36 @@
+--[[
+Vatan Gaming Roleplay tarafindan kodlanistir.  KaiseR ®? 2019
+]]
+function surprizkutu(thePlayer)
+local Ssans = math.random( 1 , 5)
+local gSsans = tonumber(ssans)
+if not (exports.global:hasItem(thePlayer, 5001))then
+                outputChatBox("#FF0000[!]#FFFFFFSüpriz kutun olmadan açamazsin.",thePlayer,0, 0, 0, true)
+		return
+	end
+if ( Ssans == 1 ) then 
+exports.global:takeItem(thePlayer, 5001 , 1)
+exports.global:giveMoney(thePlayer, 100000)
+outputChatBox("#FF0000[!]#FFFFFFTebrikler Surpriz Kutudan 100.000 TL Kazandiniz", thePlayer,0, 0, 0 ,true)
+
+elseif ( Ssans == 2 ) then 
+exports.global:takeItem(thePlayer, 5001 , 1)
+exports.global:giveMoney(thePlayer, 150000)
+outputChatBox("#FF0000[!]#FFFFFFTebrikler Surpriz Kutudan 150.000 TL Kazandiniz", thePlayer,0, 0, 0 ,true)
+
+
+
+elseif ( Ssans == 3 ) then 
+exports.global:takeItem(thePlayer, 5001 , 1)
+exports.global:giveMoney(thePlayer, 250000)
+outputChatBox("#FF0000[!]#FFFFFFTebrikler Surpriz Kutudan 250.000 TL Kazandiniz", thePlayer,0, 0, 0 ,true)
+
+
+elseif ( Ssans == 4 or Ssans == 5 ) then 
+exports.global:takeItem(thePlayer, 5001 , 1)
+exports.global:giveMoney(thePlayer, 150000)
+outputChatBox("#FF0000[!]#FFFFFFTebrikler Surpriz Kutudan 150.000 TL Kazandiniz", thePlayer,0, 0, 0 ,true)
+end
+end
+addCommandHandler("kutuac", surprizkutu)
+

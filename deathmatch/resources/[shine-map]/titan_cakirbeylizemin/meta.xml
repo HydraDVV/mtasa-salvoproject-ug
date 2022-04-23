@@ -1,0 +1,8 @@
+<meta>
+<info author="SparroWMTA" description="www.sparrow-mta.blogspot.com" version="1.3" type="script" />
+<script src="client.lua" type="client"/>
+
+<file src="obje.txd" type="client"/>
+<file src="obje.dff" type="client"/>
+<file src="obje.col" type="client"/>
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+	<script src="s_artifacts.lua" type="server"/>
+	<script src="g_artifacts.lua" type="client"/>
+	<script src="g_artifacts.lua" type="server"/>
+
+
+	<export function="getArtifacts" type="server" />
+	<export function="getArtifacts" type="client" />
+	<export function="countPlayerArtifacts" type="server" />
+	<export function="getPlayerArtifacts" type="server" />
+	<export function="isPlayerWearingArtifact" type="server" />
+	<export function="setPlayerArtifactProperty" type="server" />
+	
+	
+</meta>

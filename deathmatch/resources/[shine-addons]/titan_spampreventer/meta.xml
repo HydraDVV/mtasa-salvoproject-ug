@@ -1,0 +1,4 @@
+<meta>
+<info author="Swift"  name="Anti-spam" type="script" version="1.0" />	
+<script src="server_msg.lua" type="server" />
+</meta>

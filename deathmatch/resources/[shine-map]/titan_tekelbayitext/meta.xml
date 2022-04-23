@@ -1,0 +1,5 @@
+﻿<meta>
+    <info author="+Fred" description="Praça Sketchup" version="1.0" type="misc" />
+	<script src="replace.lua" type="client" />
+    <file src="punchbag2.txd" />
+</meta>

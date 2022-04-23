@@ -1,0 +1,84 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="PNLBank" class="safak-bank-panel">
+		<div class="safak-bank-panel-exit" onclick="mta.triggerEvent('BankBrowser-CloseBrowser');">
+			<i>></i><span>Çıkış Yap</span>
+		</div>
+		<div class="tabs">
+			<div class="tab active" data-tab-id="1" onclick="tabAyar(this);"><div class="label">Kişisel Hesap</div></div>
+			<!--<div class="tab pnl-disabled" data-tab-id="2" onclick="tabAyar(this);"><div class="label">Kişisel Aktarımlar</div></div>-->
+		</div>
+		<div id="PNL1">
+			<div class="safak-bank-panel-header">
+				<small>Bankanızda bulunan para</small>
+				<span id="SPNBankaPara" class="curbalance">0₺</span>
+			</div>
+			<div class="safak-bank-panel-buttons">
+				<button id="BTNParaCek" type="button" onclick="panelAc('PNLParaCek');">Para Çek</button>
+				<button id="BTNParaYatir" type="button" onclick="panelAc('PNLParaYatir');">Para Yatır</button>
+				<button id="BTNParaGonder" type="button" onclick="panelAc('PNLParaGonder');">Para Gönder</button>
+			</div>
+		</div>
+		<div id="PNL2" class="pnl-disabled">
+			<table class="w-100">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Kimden</th>
+						<th>Kime</th>
+						<th>Miktar</th>
+						<th>Tarih</th>
+						<th>Sebep</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Furkan</td>
+						<td>Furkan</td>
+						<td>500.500</td>
+						<td>Tarih</td>
+						<td>Sebep</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="PNLParaCek" class="safak-bank-form-panel">
+		<input id="miktar" id="TXTCekilecekMiktar" type="number" min="0" placeholder="Çekmek istediğiniz miktarı girin"/>
+		<button type="button" onclick="mta.triggerEvent('BankBrowser-WidthrawMoney', document.getElementById('miktar').value);" onclick="paraCek();">Para Çek</button>
+		<button class="danger" onclick="PNLKapat('PNLParaCek');">Vazgeç</button>
+	</div>
+	
+	
+	<div id="PNLParaYatir" class="safak-bank-form-panel">
+		<input  type="number" id="miktarr" min="0" placeholder="Yatırmak istediğiniz miktarı girin"/>
+		<button type="button" onclick="mta.triggerEvent('BankBrowser-DepositMoney', document.getElementById('miktarr').value);" >Para Yatır</button>
+		
+		
+		
+		<button class="danger" onclick="PNLKapat('PNLParaYatir');">Vazgeç</button>
+	</div>
+	
+	
+	
+	
+	<div id="PNLParaGonder" class="safak-bank-form-panel">
+		<input id="TXTGonderilecekMiktar" type="number" min="0" placeholder="Göndermek istediğiniz miktarı girin"/>
+		<input id="TXTGonderilecekID" type="text" min="0" placeholder="Göndermek istediğiniz oyuncunun tam adı"/>
+		<input id="TXTGonderilecekSebep" type="text" min="0" placeholder="Gönderme Sebebi"/>
+		<button type="button" onclick="paraGonder();">Para Gönder</button>
+		<button class="danger" onclick="PNLKapat('PNLParaGonder');">Vazgeç</button>
+	</div>
+	<script src="scripts.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/framework.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mtaevents.js"></script>
+    <script src="js/keys.js"></script>
+</body>
+</html>

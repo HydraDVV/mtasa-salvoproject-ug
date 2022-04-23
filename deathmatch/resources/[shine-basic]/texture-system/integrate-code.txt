@@ -1,0 +1,56 @@
+--item-system/c_item_system.lua: useItem():
+		elseif (itemID==147) then -- Picture Frame
+			--outputDebugString("itemSlot="..tostring(itemSlot))
+			if(itemValue and itemValue ~= 1) then
+				local url = itemValue
+				triggerEvent("texture-system:selectTexture", getLocalPlayer(), itemSlot, url)
+				return
+			else
+				triggerEvent("texture-system:itemUrlGui", getLocalPlayer(), itemSlot)
+				return
+			end
+		end
+		
+--item-system/s_commands.lua:
+
+--TEXTURE SYSTEM:
+function saveTextureURL(slot, url)
+	--outputDebugString("source="..tostring(source).." slot="..tostring(slot).." url="..tostring(url))
+	updateItemValue(source, slot, url)
+	outputChatBox("Texture URL set.", source, 0, 255, 0)
+end
+addEvent("item-system:saveTextureURL", true)
+addEventHandler("item-system:saveTextureURL", getRootElement(), saveTextureURL)
+
+function saveTextureReplacement(slot, url, texture)
+	outputDebugString("source="..tostring(source).." slot="..tostring(slot).." url="..tostring(url).." texture="..tostring(texture))
+	if(texture) then
+		updateItemValue(source, slot, tostring(url)..";"..tostring(texture))
+	else
+		updateItemValue(source, slot, tostring(url))
+	end
+	outputChatBox("Replacement texture saved.", source, 0, 255, 0)
+end
+addEvent("item-system:saveTextureReplacement", true)
+addEventHandler("item-system:saveTextureReplacement", getRootElement(), saveTextureReplacement)
+
+
+--item-system/c_inventory.lua: getImage():
+	elseif itemID == 147 then -- Picture frame
+		if(itemValue and itemValue ~= 1) then
+			return "images/147b.png"
+		else
+			return "images/147.png"
+		end
+		
+--item-system/s_world_items.lua: dropItem():
+		elseif (itemID == 147) then -- Picture Frame
+			--outputDebugString("Placing picture frame")
+			local split = exports.global:explode(";", itemValue)
+			local url = split[1]
+			local texture = split[2]
+			if url and texture then	
+				weaponBlock = true
+				exports['texture-system']:placeTexture(source, itemSlot, texture, url)
+				outputChatBox("Texture added.", source, 0, 255, 0)
+			end

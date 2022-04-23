@@ -1,0 +1,14 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+	<script src="shader.lua" type="client" />
+	<file src="server.lua" />	
+	<file src="shader.fx" />
+	<file src="img/dverkofe.jpg" />	
+	<file src="img/stena.jpg" />	
+	<file src="img/oknosolon.png" />	
+	<file src="img/pizza.jpg" />	
+	<file src="img/pizza2.jpg" />	
+	<file src="img/pol.jpg" />	
+	<file src="img/stena1.jpg" />	
+	<file src="img/stenka.jpg" />	
+</meta>

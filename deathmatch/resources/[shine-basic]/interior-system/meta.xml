@@ -1,0 +1,33 @@
+<meta>
+	<info author="Shine Scripting Team" type="script" description="Interior System"/>
+	
+	<script src="s_admin.lua" type="server" />
+	<script src="s_interior.lua" type="server" />
+	<export function="addSafeAtPosition" type="server"/>
+	<export function="publicSellProperty" type="server"/>
+	<export function="cleanupProperty" type="server"/>
+	<export function="findProperty" type="server"/>
+	<export function="findParent" type="server"/>
+	<export function="lockUnlockHouseEvent" type="server"/>
+	<export function="reloadInterior" type="server"/>
+	<export function="realReloadInterior" type="server"/>
+	
+	<script src="c_interior.lua" type="client" />
+	<script src="s_shout.lua" type="server" />
+	<script src="c_pickups.lua" type="client" />
+	<script src="g_shared.lua" type="client" />
+	<script src="g_shared.lua" type="server" />
+
+	<export function="findProperty" type="client"/>
+	<export function="findParent" type="client"/>
+	<export function="canEnterInterior" type="client"/>
+	
+	<file src="components/knocking.mp3" />
+	<file src="components/doorUnlockSound.mp3" />
+	<file src="components/doorLockSound.mp3" />
+	<file src="components/doorGoThru.mp3" />
+
+	<file src="components/intNameFont.ttf"/>
+	<file src="components/icon.png"/>
+	
+</meta>

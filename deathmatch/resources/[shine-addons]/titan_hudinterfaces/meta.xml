@@ -1,0 +1,11 @@
+<meta>
+	<info name="TitanMTA Hud System" author="hanz - Haktan Özyurt" version="1.2.4" type="script" />
+    <!-->Client-->
+	    <script src="hanzC.lua" type="client" cache="false" />
+	<!-->Server-->
+	    <script src="hanzS.lua" type="server" />
+		<script src="server.lua" type="server" />
+	<!-->Dosyalar-->
+		<file src="img/whitedot.jpg"/>
+		<file src="img/salvo.png"/>
+</meta>

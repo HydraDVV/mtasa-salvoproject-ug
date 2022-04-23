@@ -1,0 +1,5 @@
+<meta>
+<info author="Cayp" description="Cayp Model" version="1.3" type="script" />
+<script src="client.lua" type="client" cache="false"/>
+<file src="Salvopankart.txd" type="client"/>
+</meta>

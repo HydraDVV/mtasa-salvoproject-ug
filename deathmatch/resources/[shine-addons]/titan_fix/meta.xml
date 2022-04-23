@@ -1,0 +1,5 @@
+<meta>
+	<info author="Chef" version="1" type="script" />
+	<script src="flip.lua" type="server" />
+	<script src="fix.lua" type="server" />
+</meta>

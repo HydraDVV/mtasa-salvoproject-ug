@@ -1,0 +1,4 @@
+
+<script src="seyahat/c_seyahat.lua" type="client" protected="true" />
+<script src="seyahat/s_seyahat.lua" type="server" protected="true" />
+<script src="isbasiseyahat/server.lua" type="server"/>

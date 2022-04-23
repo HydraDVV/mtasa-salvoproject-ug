@@ -1,0 +1,40 @@
+<meta>
+	<info author="iG MTA Scripting Team" type="script" description="Clothing System"/>
+
+	<script src="c_replace.lua" type="client" protected="true" />
+	
+	<script src="c_helmet.lua" type="client" protected="true" />
+	<script src="s_helmet.lua" type="server"/>
+	
+	<script src="c_rod.lua" type="client" protected="true" />
+	<script src="s_rod.lua" type="server"/>
+	
+	<script src="c_gasmask.lua" type="client" protected="true" />
+	<script src="s_gasmask.lua" type="server"/>
+	
+	<script src="c_dufflebag.lua" type="client" protected="true" />
+	<script src="s_dufflebag.lua" type="server"/>
+	
+	<script src="c_kevlar.lua" type="client" protected="true" />
+	<script src="s_kevlar.lua" type="server"/>
+	
+	<!-- Fishing Rod -->
+	<file src="models/rod.txd"/>
+	<file src="models/rod.dff"/>
+
+	<!-- Helmet -->
+	<file src="models/pro.dff"/>
+	<file src="models/pro.txd"/>
+	
+	<!-- Gas Mask -->
+	<file src="models/gasmask.dff"/>
+	<file src="models/gasmask.txd"/>
+	
+	<!-- Dufflebag -->
+	<file src="models/dufflebag.dff"/>
+	<file src="models/dufflebag.txd"/>
+	
+	<!-- Kevlar -->
+	<file src="models/kevlar.dff"/>
+	<file src="models/kevlar.txd"/>
+</meta>

@@ -1,0 +1,18 @@
+﻿<meta>
+<download_priority_group>1</download_priority_group>
+
+<!-- GENEL -->
+<script src= "client.lua"  type="client" cache="false"/>
+<script src= "server.lua"  type="server" />
+
+<!-- DOSYLAR -->
+<file src = "dosyalar/resimler/1.png" />
+<file src = "dosyalar/resimler/yukleniyor.png" />
+
+<!-- FONTLAR -->
+<file src = "dosyalar/fontlar/yazi_tipi1.otf" type="client" cache="false"/>
+<file src = "dosyalar/fontlar/yazi_tipi2.ttf" type="client" cache="false"/>
+<file src = "dosyalar/fontlar/yazi_tipi3.ttf" type="client" cache="false"/>
+<file src = "dosyalar/fontlar/yazi_tipi4.ttf" type="client" cache="false"/>
+
+</meta>

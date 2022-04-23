@@ -1,0 +1,12 @@
+﻿<meta>
+    <min_mta_version server="1.5.4-0.00000" client="1.5.4-0.00000" />
+    <oop>true</oop>
+	<script src="titan_proximity-voice/level.lua" type="server"></script>
+    <script src="titan_proximity-voice/server.lua" type="server"></script>
+    <script src="titan_proximity-voice/client.lua" type="client"></script>
+	<file src="titan_proximity-voice/files/Roboto.ttf"/>
+	<file src="titan_proximity-voice/files/voice.png"/>
+    <script src="titan_voice/server.lua" type="server" />
+    <script src="titan_voice/client.lua" type="client" cache="false" />
+    <script src="titan_voicemute/components/server.lua" type="server" cache="false" />
+</meta>

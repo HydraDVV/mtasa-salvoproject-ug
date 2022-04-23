@@ -1,0 +1,36 @@
+<meta>
+<info author="(desconocido)Brankiller"  type="script" version="1.0.0" />
+<file src="texreplace.fx" type="server" />
+<script src="client.lua" type="client"/>
+
+<file src="miras/1.png" type="server"/>
+<file src="miras/2.png" type="server"/>
+<file src="miras/3.png" type="server"/>
+<file src="miras/4.png" type="server"/>
+<file src="miras/5.png" type="server"/>
+<file src="miras/6.png" type="server"/>
+<file src="miras/7.png" type="server"/>
+<file src="miras/8.png" type="server"/>
+<file src="miras/9.png" type="server"/>
+<file src="miras/10.png" type="server"/>
+<file src="miras/11.png" type="server"/>
+<file src="miras/12.png" type="server"/>
+<file src="miras/13.png" type="server"/>
+<file src="miras/14.png" type="server"/>
+<file src="miras/15.png" type="server"/>
+<file src="miras/16.png" type="server"/>
+<file src="miras/17.png" type="server"/>
+<file src="miras/18.png" type="server"/>
+<file src="miras/19.png" type="server"/>
+<file src="miras/20.png" type="server"/>
+<file src="miras/21.png" type="server"/>
+<file src="miras/22.png" type="server"/>
+<file src="miras/23.png" type="server"/>
+<file src="miras/24.png" type="server"/>
+<file src="miras/25.png" type="server"/>
+<file src="miras/26.png" type="server"/>
+<file src="miras/27.png" type="server"/>
+<file src="miras/28.png" type="server"/>
+<file src="miras/29.png" type="server"/>
+<file src="miras/30.png" type="server"/>
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+	<info author="Force - Haktan Ege Özyurt" type="script" description="Birlik Oluşturma"/>
+	<script src="c_birlik.lua" type="client" cache="false"/>
+	<script src="g_birlik.lua" type="client"/>
+	<script src="s_birlik.lua" type="server" />
+	<file src="img/whitedot.png" />
+</meta>

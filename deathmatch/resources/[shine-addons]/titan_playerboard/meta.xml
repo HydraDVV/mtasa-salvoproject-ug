@@ -1,0 +1,10 @@
+<meta>
+	<script src='s_tab.lua' type='server' />
+	<script src='c_tab.lua' type='client' cache="true" />
+	
+	<file src="files/logo.png"/>
+    <file src="files/wheel.wav"/>
+	<file src="files/sound.mp3"/>
+	<export function="isVisible" type="client" />
+	
+</meta>	

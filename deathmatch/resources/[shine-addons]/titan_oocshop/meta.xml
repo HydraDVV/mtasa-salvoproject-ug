@@ -1,0 +1,69 @@
+<meta>
+<info author="Force" description="fb.com/furkan.1938.parlak" version="1.0" type="script" />
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server"/>
+	<export function="bakiye_guncelle" type="server" />
+	<file src="assets/vehicles/none.png" />
+	<file src="assets/vehicles/412.png" />
+	<file src="assets/vehicles/434.png" />
+	<file src="assets/vehicles/494.png" />
+	<file src="assets/vehicles/502.png" />
+	<file src="assets/vehicles/503.png" />
+	<file src="assets/vehicles/504.png" />
+	<file src="assets/vehicles/522.png" />
+	<file src="assets/vehicles/555.png" />
+	<file src="assets/vehicles/605.png" />
+	<file src="assets/vehicles/436.png" />
+	<file src="assets/vehicles/451.png" />
+	<file src="assets/vehicles/495.png" />
+	<file src="assets/vehicles/604.png" />
+	<file src="assets/vehicles/526.png" />
+	<file src="assets/vehicles/602.png" />
+	<file src="assets/vehicles/527.png" />
+	<file src="assets/vehicles/554.png" />
+	<file src="assets/vehicles/470.png" />
+	<file src="assets/vehicles/542.png" />
+	<file src="assets/vehicles/487.png" />
+	<file src="assets/vehicles/496.png" />
+	
+	<file src="assets/pets/none.png" />
+	<file src="assets/pets/10.png" />
+	<file src="assets/pets/45.png" />
+	<file src="assets/pets/46.png" />
+	<file src="assets/pets/298.png" />
+	<file src="assets/pets/301.png" />
+	<file src="assets/pets/302.png" />
+	<file src="assets/pets/304.png" />
+	
+	<file src="assets/skins/none.png" />
+	<file src="assets/skins/306.png" />
+	<file src="assets/skins/307.png" />
+	<file src="assets/skins/308.png" />
+	<file src="assets/skins/309.png" />
+	<file src="assets/skins/310.png" />
+	<file src="assets/skins/311.png" />
+	<file src="assets/skins/312.png" />
+	<file src="assets/skins/14.png" />
+	<file src="assets/skins/15.png" />
+	<file src="assets/skins/98.png" />
+	<file src="assets/skins/169.png" />
+	<file src="assets/skins/300.png" />
+	<file src="assets/skins/301.png" />
+	<file src="assets/skins/302.png" />
+	<file src="assets/skins/305.png" />
+	<file src="assets/skins/297.png" />
+	<file src="assets/skins/291.png" />
+	<file src="assets/skins/295.png" />
+	<file src="assets/skins/296.png" />
+	<file src="assets/skins/299.png" />
+	
+	<file src="assets/weapons/none.png" />
+	<file src="assets/weapons/22.png" />
+	<file src="assets/weapons/28.png" />
+	<file src="assets/weapons/29.png" />
+	<file src="assets/weapons/32.png" />
+	<file src="assets/weapons/25.png" />
+	<file src="assets/weapons/33.png" />
+	<file src="assets/weapons/30.png" />
+	<file src="assets/weapons/23.png" />
+</meta>

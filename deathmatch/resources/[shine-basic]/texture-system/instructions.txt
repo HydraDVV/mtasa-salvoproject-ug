@@ -1,0 +1,27 @@
+ADDING TRIGGERS FOR LOADING CUSTOM TEXTURES
+	Custom textures will have to be loaded each time player enters a new dimension. To trigger the texture loading, the server-side
+	event "texture-system:loadCustomTextures" is used. Server-side the event can be triggered like this:
+	
+	triggerEvent("texture-system:loadCustomTextures", client)
+	
+	Remember to use triggerServerEvent when triggering from client-side. Example:
+		triggerServerEvent("texture-system:loadCustomTextures", getLocalPlayer())
+	
+	Here's an overview of places where this triggering should be added:
+		1. account-system/s_characters.lua: At the end of function spawnCharacter().
+			This ensures textures are loaded for the dimension player spawns in when logging in to a character.
+		
+		2. interior-system/s_interior_system.lua: At the end of handler function for event "onPlayerInteriorChange".
+		
+		3. vehicle-interiors/s_vehicle_interiors.lua: Add wherever player dimension gets changed without triggering either 
+		"setPlayerInsideInterior" or "onPlayerInteriorChange" (only one occurence found for RPP, in function enterCockpitByKey).
+		
+		
+DB TABELL:
+CREATE TABLE IF NOT EXISTS `interior_textures` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `interior` int(11) NOT NULL,
+  `texture` varchar(255) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

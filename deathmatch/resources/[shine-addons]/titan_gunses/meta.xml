@@ -1,0 +1,75 @@
+<meta>
+	<info type="script" author="Shmorf" version="1.0" />
+	
+	<script type="client" src="sounds.lua" protected="true" />
+	<script type="client" src="client.lua" protected="true" />
+	
+	<script type="client" src="weapons.lua" protected="true" />
+	<script type="server" src="weapons.lua" />
+	
+	<script type="client" src="damage.lua" protected="true" />
+	
+	<file src="files/hitmarker.dds" />
+
+	<!-- WEAPON SOUNDS -->
+	<file src="files/Handgun/Glock9mm_shot_01.mp3" />
+	<file src="files/Handgun/Glock9mm_shot_02.mp3" />
+	<file src="files/Handgun/Glock9mm_shot_03.mp3" />
+	
+	<file src="files/Shotgun/Shotgun1_shot_01.mp3" />
+	<file src="files/Shotgun/Shotgun1_shot_02.mp3" />
+	<file src="files/Shotgun/Shotgun1_shot_03.mp3" />
+
+	<file src="files/AssaultRifle/AK-74_shot_01.mp3" />
+	<file src="files/AssaultRifle/AK-74_shot_02.mp3" />
+	<file src="files/AssaultRifle/AK-74_shot_03.mp3" />
+	
+	<file src="files/AssaultRifle/AK-74_tail_01.mp3" />
+	
+	<file src="files/AssaultRifle/M16-shot-01.mp3" />
+	<file src="files/AssaultRifle/M16-shot-02.mp3" />
+	<file src="files/AssaultRifle/M16-shot-03.mp3" />
+	
+	<file src="files/AssaultRifle/M16-tail-01.mp3" />
+	
+	<file src="files/AssaultRifle/SCAR_tail_01.mp3" />
+	<file src="files/AssaultRifle/SCAR_tail_02.mp3" />
+	<file src="files/AssaultRifle/SCAR_tail_03.mp3" />
+	
+	<file src="files/AssaultRifle/SCAR_shot_01.mp3" />
+	<file src="files/AssaultRifle/SCAR_shot_02.mp3" />
+	<file src="files/AssaultRifle/SCAR_shot_03.mp3" />
+	
+	<file src="files/Sniper/Sniper50Cal_shot_01.mp3" />
+	<file src="files/Sniper/Sniper50Cal_shot_02.mp3" />
+	<file src="files/Sniper/Sniper50Cal_shot_03.mp3" />
+	
+	<file src="files/Handgun/DesertEagle-01.ogg" />
+	
+	<file src="files/SMG/MP5_shot_01.mp3" />
+	<file src="files/SMG/MP5_shot_02.mp3" />
+	<file src="files/SMG/MP5_shot_03.mp3" />
+	
+	<file src="files/SMG/MP5_tail_01.mp3" />
+	
+	<file src="files/SMG/Uzi_shot_01.mp3" />
+	<file src="files/SMG/Uzi_shot_02.mp3" />
+	<file src="files/SMG/Uzi_shot_03.mp3" />
+	
+	<file src="files/SMG/Uzi_tail_01.mp3" />
+	
+	<file src="files/SMG/Scorpion_EVO3-shot-01.mp3" />
+	<file src="files/SMG/Scorpion_EVO3-shot-02.mp3" />
+	<file src="files/SMG/Scorpion_EVO3-shot-03.mp3" />
+	
+	<file src="files/SMG/Scorpion_EVO3-tail-01.mp3" />
+	
+	<file src="files/SMG/MP5SD_v3_shot_01.mp3" />
+	<file src="files/SMG/MP5SD_v3_shot_02.mp3" />
+	
+	<file src="files/SMG/MP5SD_v3_tail_01.mp3" />
+	
+	<file src="files/Special/AT4/AT4_launch_01.ogg" />
+	
+	<file src="files/explosion.ogg" />
+</meta>

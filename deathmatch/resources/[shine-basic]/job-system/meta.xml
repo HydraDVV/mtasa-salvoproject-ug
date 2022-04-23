@@ -1,0 +1,103 @@
+<meta>
+	<info author="REMAJOR" type="script" description="Meslek Sistemi"/>
+	<script src="isbasitaksi/server.lua" type="server"/>
+	<script src="isbasiotobus/server.lua" type="server"/>
+	<script src="isbasitup/server.lua" type="server"/>
+	<script src="isbasipizza/server.lua" type="server"/>
+	<script src="isbasikamyon/server.lua" type="server"/>
+	<script src="isbasiminbus/server.lua" type="server"/>
+	<script src="isbasitamirci/server.lua" type="server"/>
+	<script src="s_job_system.lua" type="server"/>
+	<script src="c_job_system.lua" type="client" protected="true" />
+	<!--<script src="s_job_commands.lua" type="server"/>-->
+	<script src="s_job_framework.lua" type="server"/>
+	<script src="c_job_framework.lua" type="client" protected="true" />
+	<!--
+	<script src="trucker/s_trucker_job.lua" type="server"/>
+	<script src="trucker/c_trucker_job.lua" type="client"/>
+	-->
+    <map src="sigara/sigara.map" dimension="0"></map>
+	<script src="sigara/c_sigara.lua" type="client" protected="true" />
+	<script src="sigara/s_sigara.lua" type="server" protected="true" />
+
+<script src="seyahat/c_seyahat.lua" type="client" protected="true" />
+<script src="seyahat/s_seyahat.lua" type="server" protected="true" />
+<script src="isbasiseyahat/server.lua" type="server"/>
+
+<script src="cminibus/c_cminibus.lua" type="client" protected="true" />
+<script src="cminibus/s_sminibus.lua" type="server" protected="true" />
+<script src="isbasicminibus/server.lua" type="server"/>
+	
+<script src="isbasitir/server.lua" type="server"/>	
+<script src="tir/c_tir.lua" type="client" protected="true" />
+<script src="tir/s_tir.lua" type="server" protected="true" />
+
+
+<script src="temizlik/c_gaz.lua" type="client" protected="true" />
+<script src="temizlik/s_gaz.lua" type="server" protected="true" />
+<script src="isbasitemizlik/server.lua" type="server"/>
+
+<script src="ekmek/c_ekmek.lua" type="client" protected="true" />
+<script src="ekmek/s_ekmek.lua" type="server" protected="true" />
+<script src="isbasiekmek/server.lua" type="server"/>
+
+<script src="aract/c_aract.lua" type="client" protected="true" />
+<script src="aract/s_aract.lua" type="server" protected="true" />
+<script src="isbasiaract/server.lua" type="server"/>
+
+<script src="cimbicme/c_cimbicme.lua" type="client" protected="true" />
+<script src="cimbicme/s_cimbicme.lua" type="server" protected="true" />
+<script src="isbasicim/server.lua" type="server"/>
+
+<script src="hoto/c_hoto.lua" type="client" protected="true" />
+<script src="hoto/s_hoto.lua" type="server" protected="true" />
+<script src="isbasihotobus/server.lua" type="server"/>
+	
+<script src="kargo/c_kargo.lua" type="client" protected="true" />
+<script src="kargo/s_kargo.lua" type="server" protected="true" />
+<script src="isbasikargo/server.lua" type="server"/>
+
+<script src="tup/c_tup.lua" type="client" protected="true" />
+<script src="tup/s_tup.lua" type="server" protected="true" />
+	
+<script src="pizza/c_pizza.lua" type="client" protected="true" />
+<script src="pizza/s_pizza.lua" type="server" protected="true" />	
+	
+<script src="minibus/c_minibus.lua" type="client" protected="true" />
+<script src="minibus/s_minibus.lua" type="server" protected="true" />
+
+<script src="icki/c_icki.lua" type="client" protected="true" />
+<script src="icki/s_icki.lua" type="server" protected="true" />
+	
+<script src="kamyon/c_kamyon.lua" type="client" protected="true" />
+<script src="kamyon/s_kamyon.lua" type="server" protected="true" />
+
+<script src="mechanic/s_mechanic_job.lua" type="server"/>
+<script src="mechanic/s_mechanic_previews.lua" type="server"/>
+<script src="mechanic/c_mechanic_job.lua" type="client"/>
+	
+<script src="taxi/s_taksi.lua" type="server"/>
+<script src="taxi/c_taksi.lua" type="client"/>
+
+	<script src="taximeter/g_taximeter.lua" type="server"/>
+	<script src="taximeter/g_taximeter.lua" type="client"/>
+	<script src="taximeter/s_taximeter.lua" type="server"/>
+	<script src="taximeter/c_taximeter.lua" type="client"/>	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+
+	<script src="locksmith/s_locksmith_job.lua" type="server"/>
+	<script src="locksmith/c_locksmith_job.lua" type="client"/>
+	<export function="fetchJobInfoForOnePlayer" type="server"/>
+
+<script src="jobs_g.lua" type="client"/>
+<script src="jobs_g.lua" type="server"/>
+
+	<export function="getJobTitleFromID" type="server"/>
+	<export function="getJobTitleFromID" type="client"/>
+	
+    <min_mta_version client="1.3.0-9.04482" server="1.3.0-9.04431" />
+</meta>

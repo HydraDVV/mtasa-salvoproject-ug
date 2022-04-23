@@ -1,0 +1,11 @@
+<meta>
+<script src="c_tedavigui.lua" type="client"/>
+<script src="c_vazgecgui.lua" type="client"/>
+<script src="s_tedaviolgui.lua" type="server"/>
+<script src="s_tedavioldevam.lua" type="server"/>
+<file src="images/arkaplan.png"/>
+<file src="images/arkaplan2.png"/>
+<file src="images/arkaplan3.png"/>
+<file src="images/imzalabutt.png"/>
+<file src="soundFX/Kalem.mp3"/>
+</meta>

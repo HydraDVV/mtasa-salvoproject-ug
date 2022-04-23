@@ -1,0 +1,12 @@
+<meta>
+	<info author="UG MTA Scripting Team" type="script" description="Payday System"/>
+	
+
+	<file src="music/paraGelmeSesi.mp3" />
+	<file src="music/paraGelmeSesi1.mp3" />
+	<file src="music/paraGelmeSesi2.mp3" />
+	<script src="s_taxes.lua" type="server" />
+	<script src="s_payday.lua" type="server" />
+	<file src="mission_accomplished.mp3" />
+	<script src="c_payday.lua" type="client" />	
+</meta>

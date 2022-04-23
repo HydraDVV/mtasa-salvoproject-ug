@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (laecumpstreet) (1)" radius="40.036636" interior="0" model="5410" lodModel="5551" posX="2140.5156" posY="-1735.1406" posZ="15.89063" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (telgrphpole02) (1)" radius="8.5308437" interior="0" model="1308" lodModel="0" posX="2110.6953" posY="-1742.5781" posZ="12.70313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (hseing04_lvs) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="8068" scale="1" doublesided="false" collisions="true" posX="2136.5" posY="-1731" posZ="19.3" rotX="0" rotY="0" rotZ="270"></object>
+    <removeWorldObject id="removeWorldObject (projects01_LAx) (1)" radius="25.073612" interior="0" model="3661" lodModel="3662" posX="2154.3516" posY="-1713.6641" posZ="17.48438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgnhseing15) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3454" scale="1" doublesided="false" collisions="true" posX="2149.8" posY="-1706.3" posZ="18.2" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (Gen_doorEXT04) (1)" radius="3.4603717" interior="0" model="1501" lodModel="0" posX="2138.3438" posY="-1697.1094" posZ="14.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgnhseing15) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="3454" scale="1" doublesided="false" collisions="true" posX="2141.2" posY="-1665.1" posZ="18.2" rotX="0" rotY="0" rotZ="50"></object>
+    <removeWorldObject id="removeWorldObject (projects01_LAx) (2)" radius="25.073612" interior="0" model="3661" lodModel="3662" posX="2164.9375" posY="-1666.3047" posZ="17.55469" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Gen_doorEXT04) (2)" radius="3.4603717" interior="0" model="1501" lodModel="0" posX="2165.1094" posY="-1671.4531" posZ="14.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Gen_doorEXT04) (3)" radius="3.4603717" interior="0" model="1501" lodModel="0" posX="2142.8594" posY="-1663.0859" posZ="14.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (telgrphpole02) (2)" radius="8.5308437" interior="0" model="1308" lodModel="0" posX="2138.8984" posY="-1678.9687" posZ="14.17969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgnhseing15) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="3454" scale="1" doublesided="false" collisions="true" posX="2164.6001" posY="-1675" posZ="18" rotX="0" rotY="0" rotZ="75.999"></object>
+    <removeWorldObject id="removeWorldObject (veg_palm04) (1)" radius="22.657042" interior="0" model="620" lodModel="0" posX="2169.9453" posY="-1689.4766" posZ="12.57031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Gen_doorEXT04) (4)" radius="3.4603717" interior="0" model="1501" lodModel="0" posX="2150.8281" posY="-1717.4297" posZ="14.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

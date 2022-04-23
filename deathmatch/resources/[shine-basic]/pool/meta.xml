@@ -1,0 +1,15 @@
+<meta>
+    <info author="vG MTA Scripting Team" type="script" description="Pooling Functions"/>
+
+	<script src="server/s_pool.lua" type="server"/>
+	<script src="connection.lua" type="server"/>
+	<export function="allocateElement" type="server"/>
+	<export function="getPoolElementsByType" type="server"/>
+	<export function="getElement" type="server"/>
+
+	<export function="getServerSyntax" type="client"/>
+	<export function="getServerSyntax" type="server"/>
+	
+	<export function="getServerName" type="client"/>
+    <export function="getServerName" type="server"/>
+</meta>

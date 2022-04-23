@@ -1,0 +1,9 @@
+<meta>
+	<info author="Exciter" name="texture-system" description="Custom texture replacements" type="script" />
+	
+	<script src="c_texture.lua" type="client" cache="false" />
+	<script src="s_texture.lua" type="server" />
+		<export function="placeTexture" type="server"/>
+	<file src="replacement.fx" />
+	<min_mta_version server="1.3.2" client="1.3.2" />
+</meta>

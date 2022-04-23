@@ -1,0 +1,7 @@
+<meta>
+    <info author="ASL3RY" name="Ses Sistemi" type="script" version="1.6" />
+	
+    <script src="server.lua" />
+	<script src="panel.lua" type="client" cache="false"/>
+	<script src="client.lua" type="client" cache="false"/>
+</meta>

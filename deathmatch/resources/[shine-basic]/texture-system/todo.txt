@@ -1,0 +1,5 @@
+TODO:
+
+- DONE - Add cache solutuion for texturelist, so we dont have to get the list from db each time
+- Add texture previews in tooltip for item-system. Both for hover over world-items and in the inventory.
+- Check preview texture cache

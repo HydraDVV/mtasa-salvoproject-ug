@@ -1,0 +1,33 @@
+<meta>
+   <info author="MechaniC" type="script" />
+   <script src="server.lua" type="server" />
+   <script src="fakir.lua" type="server" />
+    <script src="kacaket.lua" type="server" />
+	 <script src="cimbicme.lua" type="server" />
+	  <script src="platin.lua" type="server" />
+<script src="cay.lua" type="server" />
+   <script src="igs.lua" type="server" />
+<script src="sigara.lua" type="server" />
+   <script src="kamyon.lua" type="server" />
+   <script src="tir.lua" type="server" />
+   <script src="deniz.lua" type="server" />
+   <script src="beton.lua" type="server" />
+   <script src="tamirci.lua" type="server" />
+   <script src="temizlik.lua" type="server" />
+      <script src="tasima.lua" type="server" />
+   <script src="otobus.lua" type="server" />
+	<script src="motor.lua" type="server" />
+		<script src="gmlounge.lua" type="server" />
+<script src="balik.lua" type="server" />
+<script src="otogar.lua" type="server" />
+  <script src="icki.lua" type="server" />
+  <script src="madencilik.lua" type="server" />
+  <script src="mari.lua" type="server" />
+  <script src="modifiyeci.lua" type="server" />
+  <script src="balikci.lua" type="server" />
+  <script src="audigalerisi.lua" type="server" />
+  <script src="bmwgalerisi.lua" type="server" />
+  <script src="mercedesgalerisi.lua" type="server" />
+  <script src="sanayi.lua" type="server" />
+  <script src="jgk.lua" type="server" />
+</meta>

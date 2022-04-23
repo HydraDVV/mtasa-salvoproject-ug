@@ -1,0 +1,11 @@
+﻿<meta>
+<info author="Gurlu" description="Vatan Roleplay Mobese Sistemi" version="1.0" type="script" />
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="panel.lua" type="client" cache="false"/>
+	<script src="panels.lua" type="server"/>
+	<script src="server.lua" type="server"/>
+	<script src="mobese_UT.lua" type="shared"/>
+	<file src="assets/ceza_ef.mp3" />
+	<file src="assets/mobese.txd" />
+	<file src="assets/mobese.dff" />
+</meta>

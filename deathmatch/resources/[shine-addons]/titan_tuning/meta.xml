@@ -1,0 +1,34 @@
+<meta>
+	<info name="Modifiye Sistemi" author="EmreKORKMAZ" version="1.0.2" type="script" />
+	  <map src="szerelotelep-map-sf.map" dimension="0"></map>
+	<!-- Scripts -->
+	<script src="translationsG.lua" type="shared" />
+	<script src="sourceG.lua" type="shared" />
+	<script src="sourceS.lua" type="server" />
+	<script src="sourceC.lua" type="client" />
+	<script src="nitro/sourceC.lua" type="client" />
+	<script src="airride/sourceC.lua" type="client" />
+	<script src="airride/sourceS.lua" type="server" />
+	<script src="door/sourceC.lua" type="client" />
+	<script src="color/sourceC.lua" type="client" />	
+	
+	<!-- Images -->
+	<file src="files/images/logo.png" />
+	<file src="files/images/hoveredrow.png" />
+	<file src="files/images/menunav.png" />
+	<file src="files/images/navbar/mouse.png" />
+	<file src="files/images/palette.png" />
+	<file src="files/images/light.png" />
+	
+	<!-- Fonts -->
+	<file src="files/fonts/chalet.ttf" />
+	<file src="files/fonts/icons.ttf" />
+	
+	<!-- Sounds -->
+	<file src="files/sounds/menuback.wav" />
+	<file src="files/sounds/menuenter.mp3" />
+	<file src="files/sounds/menunavigate.mp3" />
+	<file src="files/sounds/moneychange.wav" />
+	<file src="files/sounds/notification.mp3" />
+	<file src="files/sounds/airride.mp3" />
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+<info author="tahta" description="tahta Model" version="1.3" type="script" />
+<script src="client.lua" type="client" cache="false"/>
+<file src="tahtanike.txd" type="client"/>
+</meta>

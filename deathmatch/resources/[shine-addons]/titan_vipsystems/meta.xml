@@ -1,0 +1,5 @@
+<meta>
+    <info author="Force" version="1" type="script"></info>
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server"/>
+</meta>

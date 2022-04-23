@@ -1,0 +1,30 @@
+<meta>
+	<info type="script" name="Car replacement" author="Frank_Conor" version="1.2.2" />
+	<script src="client.lua" type="client"/>
+	<file src="ak47.txd" />
+	<file src="ak47.dff" />
+        <file src="chromegun.txd" />
+	<file src="chromegun.dff" />
+       	<file src="colt45.txd" />
+	<file src="colt45.dff" />
+        <file src="cuntgun.txd" />
+	<file src="cuntgun.dff" />
+        <file src="deagle.txd" />
+	<file src="deagle.dff" />
+        <file src="m4.txd" />
+	<file src="m4.dff" />
+        <file src="mp5lng.txd" />
+	<file src="mp5lng.dff" />
+        <file src="sawnoff.txd" />
+	<file src="sawnoff.dff" />
+        <file src="shotgspa.txd" />
+	<file src="shotgspa.dff" />
+        <file src="silenced.txd" />
+	<file src="silenced.dff" />
+        <file src="sniper.txd" />
+	<file src="sniper.dff" />
+        <file src="tec9.txd" />
+	<file src="tec9.dff" />
+        <file src="uzi.txd" />
+	<file src="uzi.dff" />
+</meta>

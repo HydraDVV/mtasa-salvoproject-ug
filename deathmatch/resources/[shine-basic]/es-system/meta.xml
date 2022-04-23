@@ -1,0 +1,7 @@
+<meta>
+    <oop>true</oop>
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="sittableS.lua" type="server" />
+    <script src="sittableC.lua" type="client" cache="false"/>
+</meta>

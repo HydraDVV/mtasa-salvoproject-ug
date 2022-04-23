@@ -1,0 +1,4 @@
+Hesap1, Hesap2 , Hesap3, para daðýtma yetkisini kullanmasýný istediðiniz kiþilere veriniz.
+
+"local para = 10000" yazan 10000 yeri deðiþtirerek istediðiniz kadar para daðýtabilirsiniz.
+

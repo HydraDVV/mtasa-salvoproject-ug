@@ -1,0 +1,30 @@
+[2013-05-18 14:38] setWeather
+[2013-05-18 14:39] setWeather(9)
+[2013-05-18 14:39] setWeather(9)
+[2013-05-18 15:16] setWeather(9)
+[2013-05-18 15:16] setWeather(2)
+[2013-05-18 15:17] setWeather(2)
+[2013-05-18 18:59] [/changeHeadlights] Vladimir_Volynski / 5.13.37.112 OR Vladimir_Volynski / 5.13.37.112 changed vehicle 6575 their headlight colors to 155-155-255
+[2013-05-18 22:34] [/changeHeadlights] Owen_East / 86.23.17.234 OR Owen_East / 86.23.17.234 changed vehicle 856 their headlight colors to 225-1-1
+[2013-05-19 05:47] [/changeHeadlights] Janjak_Azacca / 74.78.118.77 OR Janjak_Azacca / 74.78.118.77 changed vehicle 844 their headlight colors to 99999-0-0
+[2013-05-19 09:20] [/changeHeadlights] Daniel_Kiktras / 79.129.147.89 OR Daniel_Kiktras / 79.129.147.89 changed vehicle 887 their headlight colors to 250-0-15
+[2013-05-19 09:21] [/changeHeadlights] Daniel_Kiktras / 79.129.147.89 OR Daniel_Kiktras / 79.129.147.89 changed vehicle 879 their headlight colors to 0-0-250
+[2013-05-19 09:23] [/changeHeadlights] Daniel_Kiktras / 79.129.147.89 OR Daniel_Kiktras / 79.129.147.89 changed vehicle 868 their headlight colors to 0-0-250
+[2013-05-19 13:03] [/changePaintJob] Enrique_Castillo / 82.168.176.53 OR Enrique_Castillo / 82.168.176.53 changed vehicle 861 their colors to 1-1
+[2013-05-19 13:49] [/changePaintJob] Nate_Miller / 109.150.146.33 OR Nate_Miller / 109.150.146.33 changed vehicle 802 their colors to 35-1
+[2013-05-19 15:20] [/changeHeadlights] Enrique_Castillo / 82.168.176.53 OR Enrique_Castillo / 82.168.176.53 changed vehicle 836 their headlight colors to 130-130-255
+[2013-05-19 15:21] [/changeHeadlights] Marvin_Jones / 62.163.239.18 OR Marvin_Jones / 62.163.239.18 changed vehicle 861 their headlight colors to 130-130-255
+[2013-05-19 17:54] [/changeHeadlights] Kasper_White / 184.77.64.177 OR Kasper_White / 184.77.64.177 changed vehicle 668 their headlight colors to 162-162-162
+[2013-05-19 19:39] [/changeHeadlights] Ciprian_Voinea / 188.27.81.208 OR Ciprian_Voinea / 188.27.81.208 changed vehicle 848 their headlight colors to 133-133-133
+[2013-05-19 19:41] [/changeHeadlights] Ciprian_Voinea / 188.27.81.208 OR Ciprian_Voinea / 188.27.81.208 changed vehicle 848 their headlight colors to 240-40-120
+[2013-05-19 20:38] [/changeHeadlights] Jermaine_Jalno / 188.142.21.222 OR Jermaine_Jalno / 188.142.21.222 changed vehicle 722 their headlight colors to 0-0-255
+[2013-05-19 20:57] setVehicleHandling(getPedOccupiedVehicle(getPlayerFromName(Jonathan_Bowe), false)
+[2013-05-19 20:58] setVehicleHandling(getPedOccupiedVehicle(getPlayerFromName(Jonathan_Bowe)), false)
+[2013-05-19 20:58] setVehicleHandling(getPedOccupiedVehicle(getPlayerFromName(Jonathan_Bowe)), true)
+[2013-05-19 21:02] [/changeHeadlights] Mark_Dolke / 79.129.181.66 OR Mark_Dolke / 79.129.181.66 changed vehicle 5303 their headlight colors to 0-0-250
+[2013-05-19 21:04] [/changeHeadlights] Mark_Dolke / 79.129.181.66 OR Mark_Dolke / 79.129.181.66 changed vehicle 5303 their headlight colors to 150-200-0
+[2013-05-19 22:37] [/changeHeadlights] Mario_Walsh / 80.0.190.98 OR Mario_Walsh / 80.0.190.98 changed vehicle 848 their headlight colors to 0-250-250
+[2013-05-20 01:12] [/changeHeadlights] Joshua_Martinez / 65.26.131.4 OR Joshua_Martinez / 65.26.131.4 changed vehicle 8705 their headlight colors to 0-0-255
+[2013-05-20 01:13] [/changeHeadlights] Susan_Balcaen / 109.130.40.41 OR Susan_Balcaen / 109.130.40.41 changed vehicle 934 their headlight colors to 150-200-15
+[2013-05-20 04:42] [/changePaintJob] Dennis_Lynch / 184.180.253.3 OR Dennis_Lynch / 184.180.253.3 changed vehicle 909 their colors to 37-0
+[2013-05-20 11:38] [/changeHeadlights] Kennith_Menke / 62.131.206.198 OR Kennith_Menke / 62.131.206.198 changed vehicle 9008 their headlight colors to 1-1-255

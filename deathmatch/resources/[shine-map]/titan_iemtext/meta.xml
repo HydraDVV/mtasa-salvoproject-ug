@@ -1,0 +1,13 @@
+<meta>
+	<info author="Enkanet" type="script" description="Bayrak Modu"/>
+	
+	<script src="client.lua" type="client"protected="true" />
+	<script src="server.lua" type="server"/>
+	<file src="texreplace.fx"/>
+	<file src="texreplace2.fx"/>
+	<file src="texreplace3.fx"/>
+	<file src="texreplace4.fx"/>
+	<file src="textures/lspd.png"/>
+	<file src="textures/lspd2.png"/>
+	<file src="textures/lspd3.png"/>
+</meta>

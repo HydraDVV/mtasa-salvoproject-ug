@@ -1,0 +1,4 @@
+<meta>
+<info author="SH-Tetikci" name="Temizleme" description="Adminler,Smodlar ve Modlar Temizleyebilir." version="1.0.0" type="script" />
+<script src="clear.lua" type="server" />
+</meta>

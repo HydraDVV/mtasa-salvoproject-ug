@@ -1,0 +1,11 @@
+<meta>
+	<info author="hanz - Salvo:world" name="fivemtype-speedo"/>
+	<oop>true</oop>
+	<script src="hanzC.lua" type="client" />
+	<file src="hanz/fuelicon.png"/>
+	<script src="hanz/circle/hou_circle.lua" type="client" />
+	<file src="hanz/circle/hud_mask.fx" type="client" />
+	<file src="hanz/circle/tex_matrix.fx" type="client" />
+	<file src="hanz/circle/hou_circle.fx" type="client" />
+	<export function="shows_speed" type="client"/>
+</meta>
